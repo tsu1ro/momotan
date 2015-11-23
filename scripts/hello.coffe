@@ -1,0 +1,10 @@
+cronJob = require('cron').CronJob
+
+module.exports = (robot) ->
+  cronjob = new cronJob(
+    cronTime: "45 0 * * * *"
+    start:  true
+    timeZone: "Asia/Tokyo"
+    onTick: ->
+      robot.send{room: "momotan"}, "おはようございます"
+  )
