@@ -2,7 +2,7 @@ cronJob = require('cron').CronJob
 
 module.exports = (robot) ->
   cronjob = new cronJob(
-    cronTime: "2 * * * * *"
+    cronTime: "4 * * * * *"
     start:  true
     timeZone: "Asia/Tokyo"
     onTick: ->
