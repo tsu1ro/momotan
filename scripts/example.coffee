@@ -64,7 +64,6 @@ module.exports = (robot) ->
      annoyIntervalId = setInterval () ->
        res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
      , 10
-  #　コメント追加２
   # robot.respond /unannoy me/, (res) ->
   #   if annoyIntervalId
   #     res.send "GUYS, GUYS, GUYS!"
