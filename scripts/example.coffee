@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
   # コメント追加1
-  # コメント追加修正
+  # コメント追加修正削除
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
