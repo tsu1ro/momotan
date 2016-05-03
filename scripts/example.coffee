@@ -9,7 +9,8 @@
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
 
 module.exports = (robot) ->
-
+  # コメント追加1
+  # コメント追加修正削除
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
@@ -64,7 +65,6 @@ module.exports = (robot) ->
      annoyIntervalId = setInterval () ->
        res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
      , 10
-  #
   # robot.respond /unannoy me/, (res) ->
   #   if annoyIntervalId
   #     res.send "GUYS, GUYS, GUYS!"
